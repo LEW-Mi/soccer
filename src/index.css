@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Медиазапросы для адаптивности */
+@media (max-width: 1200px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(6px + 2vmin);
+  }
+}
