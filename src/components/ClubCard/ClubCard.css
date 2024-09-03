@@ -1,0 +1,22 @@
+.club-card {
+    text-decoration: none;
+    border: 2px solid black;
+    width: 200px; /* Установите нужный размер для квадрата */
+    height: 200px; /* Установите нужный размер для квадрата */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .club-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain; /* Сохраняет пропорции изображения */
+  }
+  
+  .club-card-content {
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+  }
