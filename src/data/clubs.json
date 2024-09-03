@@ -2,102 +2,122 @@
     {
       "id": 1,
       "name": "Манчестер Сити",
-      "logo": "/my-app/public/logoClubs/MC_48x48.png"
+      "logo": "/my-app/public/logoClubs/MC_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/MC.tsx"
     },
     {
       "id": 2,
       "name": "Ливерпуль",
-      "logo": "/my-app/public/logoClubs/LIV_48x48.png"
+      "logo": "/my-app/public/logoClubs/LIV_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/LIV.tsx"
     },
     {
       "id": 3,
       "name": "Брайтон",
-      "logo": "/my-app/public/logoClubs/BRY_48x48.png"
+      "logo": "/my-app/public/logoClubs/BRY_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/BRY.tsx"
     },
     {
       "id": 4,
       "name": "Арсенал",
-      "logo": "/my-app/public/logoClubs/ARS_48x48.png"
+      "logo": "/my-app/public/logoClubs/ARS_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/ARS.tsx"
     },
     {
       "id": 5,
       "name": "Ньюкасл Юнайтед",
-      "logo": "/my-app/public/logoClubs/NYCASL_48x48.png"
+      "logo": "/my-app/public/logoClubs/NYCASL_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/NYCASL.tsx"
     },
     {
       "id": 6,
       "name": "Бредфорд",
-      "logo": "/my-app/public/logoClubs/BREDF_48x48.png"
+      "logo": "/my-app/public/logoClubs/BREDF_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/BREDF.tsx"
     },
     {
       "id": 7,
       "name": "Астон Вилла",
-      "logo": "/my-app/public/logoClubs/ASTvilA_48x48.png"
+      "logo": "/my-app/public/logoClubs/ASTvilA_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/ASTvilA.tsx"
     },
     {
       "id": 8,
       "name": "Бормут",
-      "logo": "/my-app/public/logoClubs/BORM_48x48.png"
+      "logo": "/my-app/public/logoClubs/BORM_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/BORM.tsx"
     },
     {
       "id": 9,
       "name": "Форест",
-      "logo": "/my-app/public/logoClubs/FOREST_48x48.png"
+      "logo": "/my-app/public/logoClubs/FOREST_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/FOREST.tsx"
     },
     {
       "id": 10,
       "name": "Тоттенхем",
-      "logo": "/my-app/public/logoClubs/TOT_48x48.png"
+      "logo": "/my-app/public/logoClubs/TOT_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/TOT.tsx"
     },
     {
       "id": 11,
       "name": "Челси",
-      "logo": "/my-app/public/logoClubs/CHEL_48x48.png"
+      "logo": "/my-app/public/logoClubs/CHEL_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/CHEL.tsx"
     },
     {
       "id": 12,
       "name": "Фулхем",
-      "logo": "/my-app/public/logoClubs/FULCH_48x48.png"
+      "logo": "/my-app/public/logoClubs/FULCH_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/FULCH.tsx"
     },
     {
       "id": 13,
       "name": "Вест Хэм Юнайтед",
-      "logo": "/my-app/public/logoClubs/VESHEM_48x48.png"
+      "logo": "/my-app/public/logoClubs/VESHEM_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/VESHEM.tsx"
     },
     {
       "id": 14,
       "name": "Манчестер Юнайтед",
-      "logo": "/my-app/public/logoClubs/MANU_48x48.png"
+      "logo": "/my-app/public/logoClubs/MANU_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/MANU.tsx"
     },
     {
       "id": 15,
       "name": "Лестер Сити",
-      "logo": "/my-app/public/logoClubs/LESTER_48x48.png"
+      "logo": "/my-app/public/logoClubs/LESTER_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/LESTER.tsx"
     },
     {
       "id": 16,
       "name": "Кристал Пэлас",
-      "logo": "/my-app/public/logoClubs/PELAS_48x48.png"
+      "logo": "/my-app/public/logoClubs/PELAS_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/PELAS.tsx"
     },
     {
       "id": 17,
       "name": "Испвич Таун",
-      "logo": "/my-app/public/logoClubs/IPCVICH_48x48.png"
+      "logo": "/my-app/public/logoClubs/IPCVICH_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/IPCVICH.tsx"
     },
     {
       "id": 18,
       "name": "Вулверхэмптон",
-      "logo": "/my-app/public/logoClubs/VULVERRCH_48x48.png"
+      "logo": "/my-app/public/logoClubs/VULVERRCH_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/VULVERRCH.tsx"
     },
     {
       "id": 19,
       "name": "Саутгемптон",
-      "logo": "/my-app/public/logoClubs/SAUTGEMP_48x48.png"
+      "logo": "/my-app/public/logoClubs/SAUTGEMP_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/SAUTGEMP.tsx"
     },
     {
       "id": 20,
       "name": "Эвертон",
-      "logo": "/my-app/public/logoClubs/EVER_48x48.png"
+      "logo": "/my-app/public/logoClubs/EVER_48x48.png",
+      "link": "/my-app/src/pages/HomePagesClubs/EVER.tsx"
     }
     
   ]
