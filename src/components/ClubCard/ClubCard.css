@@ -1,22 +1,41 @@
 .club-card {
-    text-decoration: none;
-    border: 2px solid black;
-    width: 200px; /* Установите нужный размер для квадрата */
-    height: 200px; /* Установите нужный размер для квадрата */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .club-card img {
-    width: 100%;
-    height: 140px;
-    object-fit: contain; /* Сохраняет пропорции изображения */
-  }
-  
-  .club-card-content {
-    padding: 16px;
-    text-align: center;
-    width: 100%;
-  }
+  display: flex; /* Используем flexbox для выравнивания элементов */
+  flex-direction: row; /* Располагаем элементы по горизонтали */
+  align-items: center; /* Выравниваем элементы по вертикали по центру */
+  text-decoration: none; /* Убираем подчеркивание текста */
+  border: 2px solid black; /* Добавляем черную границу вокруг карточки */
+  width: 300px; /* Устанавливаем ширину карточки */
+  height: 100px; /* Устанавливаем высоту карточки */
+  overflow: hidden; /* Предотвращаем выход содержимого за пределы карточки */
+  padding: 10px; /* Добавляем внутренние отступы от границ контейнера */
+}
+
+.club-card-media-container {
+  display: flex; /* Используем flexbox для выравнивания содержимого */
+  align-items: center; /* Выравниваем содержимое по вертикали по центру */
+  justify-content: center; /* Выравниваем содержимое по горизонтали по центру */
+  width: 40%; /* Устанавливаем ширину контейнера логотипа */
+  height: 110%; /* Устанавливаем высоту контейнера логотипа */
+  overflow: hidden; /* Предотвращаем выход изображения за пределы контейнера */
+  padding: 10px; /* Добавляем внутренние отступы внутри контейнера */
+}
+
+.club-card-media {
+  max-width: 100%; /* Устанавливаем максимальную ширину логотипа */
+  max-height: 100%; /* Устанавливаем максимальную высоту логотипа */
+  object-fit: contain; /* Сохраняем пропорции изображения, чтобы оно полностью помещалось в контейнер */
+}
+
+.club-card-content {
+  padding: 16px; /* Добавляем внутренние отступы для текстового блока */
+  text-align: left; /* Выравниваем текст по левому краю */
+  width: 60%; /* Устанавливаем ширину текстового блока */
+  box-sizing: border-box; /* Учитываем padding в ширину */
+  display: flex; /* Используем flexbox для выравнивания содержимого */
+  align-items: center; /* Выравниваем содержимое по вертикали по центру */
+  justify-content: center; /* Выравниваем содержимое по горизонтали по центру */
+}
+
+.club-card-text {
+  font-size: 16px; /* Устанавливаем размер текста */
+}

@@ -12,13 +12,16 @@ interface ClubCardProps {
 const ClubCard: React.FC<ClubCardProps> = ({ clubName, clubLogo, clubLink }) => {
   return (
     <Card component={Link} to={clubLink} className="club-card">
-      <CardMedia
-        component="img"
-        image={clubLogo}
-        alt={`${clubName} logo`}
-      />
+      <div className="club-card-media-container">
+        <CardMedia
+          component="img"
+          image={clubLogo}
+          alt={`${clubName} logo`}
+          className="club-card-media"
+        />
+      </div>
       <CardContent className="club-card-content">
-        <Typography variant="h5" component="div">
+        <Typography variant="h5" component="div" className="club-card-text">
           {clubName}
         </Typography>
       </CardContent>

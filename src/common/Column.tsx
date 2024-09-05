@@ -21,4 +21,4 @@ const Column = styled.div`
   }
 `;
 
-export default Column; 
+export default Column;

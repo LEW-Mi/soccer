@@ -43,9 +43,9 @@ const Home: React.FC = () => (
       </Button>
       </Column>
     </Row>
-    <Row>
+    <Row style={{ justifyContent: 'center' }}>
       {clubs.map(club => (
-        <Column key={club.id}>
+        <Column key={club.id} style={{ margin: '10px', display: 'flex', justifyContent: 'center' }} >
           <ClubCard 
             clubName={club.name} 
             clubLogo={club.logo} 
